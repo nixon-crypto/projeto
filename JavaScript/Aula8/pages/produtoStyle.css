@@ -1,0 +1,153 @@
+/* reseta o css*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background-color: #fff;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+}
+
+.logo-icone {
+    width: 32px;
+    height: 32px;
+    background-color: #3b82f6;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-texto {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+
+nav a:hover {
+    color: #3b82f6;
+}
+
+.menu {
+    display: flex;
+    gap: 15px;
+    justify-content: right;
+}
+
+.inicio{
+    padding: 64px 0;
+    background-color: #f1f5f9;
+    text-align: center;
+}
+
+.inicio h1{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.inicio p{
+    font-size: 20px;
+    color: #666;
+    line-height: 1.3;
+    margin-top: 20px;
+}
+
+.produtos {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0;
+}
+
+.produtos-card {
+    border: 1 px solid #b1b1b1;
+    border-radius: 8px;
+    border: 1px solid #666;
+}
+
+.produtos-card img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.produtos-card img:hover{
+    transform: scale(1.1);
+}
+
+.produto-img {
+    height: 250px;
+}
+
+.produto-img img {
+    object-fit: contain;
+}
+
+
+.produtos-grid {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.produto-texto {
+    padding: 24px;
+}
+
+.produto-texto h3 {
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.produto-texto p {
+    font-size: 24px;
+
+}
+
+.produto-texto button {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #166efa;
+    color: #fff;
+    border: none;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.produto-texto button:hover {
+    background-color: #3b82f6;
+}
