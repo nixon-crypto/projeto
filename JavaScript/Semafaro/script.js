@@ -1,4 +1,5 @@
 //alterar uma cor e o nome da descrição
+
 function pare() {
   document.getElementById("pare").style.backgroundColor = "red";
   document.getElementById("atencao").style.backgroundColor = " rgb(64, 64, 64)";
