@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semáforo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="box">
+      <h1>🚦 Controle de Semáforo</h1>
+      <div class="semaforo">
+        <div id="pare" class="pare"></div>
+        <div id="atencao" class="atencao"></div>
+        <div id="seguir" class="seguir"></div>
+      </div>
+
+      <h2 id="legenda">⬆️ Seguir</h2>
+      <div class="botoes">
+        <button onclick="pare()">Pare</button>
+        <button onclick="atencao()">Atenção</button>
+      </div>
+      <button onclick="seguir()">Seguir</button>
+      <button onclick="desligar()">Desligar todos</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
