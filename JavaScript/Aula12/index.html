@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+    <h1>Trabalhando com Formularios e inputs</h1>
+
+    <h2>1 inputs basicos</h2>
+    <label>Nome: </label>
+    <input id="inputNome" type="text" placeholder="Digite seu nome">
+    <button onclick="mostrarNome()">Mostrar nome</button>
+    <br><br>
+
+    <label>Idade:</label>
+    <input id="inputIdade" type="number" placeholder="Digite sua idade" max="120" min="1">
+    <button onclick="mostrarIdade()">Mostrar idade</button>
+
+    <br><br>
+
+    <label>Email</label>
+    <input id="inputEmail" type="email" placeholder="Digite seu email">
+    <button onclick="mostraEmail()">Mostrar e-mail</button>
+
+    <div id="resultados1">
+        <p>Os resultados aparecerão aqui</p>
+    </div>
+
+    <hr>
+
+    <h2>2 Diferentes tipos de input</h2>
+
+    <label>Data de Nascimento</label>
+    <input id="inputData" type="date">
+    <button onclick="mostrarData()">Mostrar data</button>
+
+    <br><br>
+
+    <label>Cor favorita</label>
+    <input id="inputCor" type="color">
+    <button onclick="mostrarCor()">Mostrar cor</button>
+
+    <br><br>
+
+    <label>Aceitar os termos</label>
+    <input id="inputCheckbox" type="checkbox">
+    <button onclick="verificarCheckbox()">Vereficar</button>
+
+    <hr>
+
+    <h2>3 Select (Lista) e Radio Button</h2>
+
+    <label>Estado Civil</label>
+    <select>
+        <option>Selecione</option>
+        <option>Solteiro(a)</option>
+        <option value="casado">Casado</option>
+        <option value="viuvo">Viúvo</option>
+        <option value="divorciado">Divorciado</option>
+    </select>
+
+    <br><br>
+
+    <label>Gênero</label>
+    <br>
+    <input type="radio" name="genero" value="Masculino">
+    <label>Masculino</label>
+    <br>
+    <input type="radio" name="genero" value="Feminino">
+    <label>Feminino</label>
+    <br>
+    <input type="radio" name="genero" value="Outros">
+    <label>Outros</label>
+    <br>
+    <button onclick="pegarGenero()">Mostrar genero</button>
+
+    <br><br>
+
+    <label>Comentários:</label>
+
+    <br>
+
+    <textarea maxlength="20"></textarea>
+
+    <br>
+
+    <button>Mostrar Comentários</button>
+
+    <div>
+        <p>Resultados do Select, radio e textarea</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.box{
+    width: 500px;
+    height: 900px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.semaforo{
+    width: 300px;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 40px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.vermelho,.amarelo,.verde{
+    height: 130px;
+    width: 130px;
+    border-radius: 100%;
+    background-color:rgb(56, 56, 56);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+.sinal{
+    display: flex;
+    margin: 30px auto;
+}
+
+.parar{
+    background-color: rgb(77, 77, 253);
+    padding: 10px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+}
+
+.parar:hover{
+    background-color: rgb(115, 115, 249);
+}
+
+.atencao{
+    background-color: rgb(77, 77, 253);
+    padding: 10px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.atencao:hover{
+    background-color: rgb(115, 115, 249);
+}
+
+.seguir{
+    background-color: rgb(77, 77, 253);
+    padding: 10px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.seguir:hover{
+    background-color: rgb(115, 115, 249);
+}
+
+.desligar{
+    background-color: rgb(77, 77, 253);
+    padding: 10px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.desligar:hover{
+    background-color: rgb(115, 115, 249);
+}
