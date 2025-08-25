@@ -146,10 +146,8 @@ nav a:hover {
     border: none;
     font-size: 13px;
     margin-top: 10px;
-    transition: 0.5s ease;
 }
 
 .produto-texto button:hover {
     background-color: #3b82f6;
-    transform: scale(1.1);
 }
